@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/EJEMPLO_PILA.dir/main.c.o CMakeFiles/EJEMPLO_PILA.dir/pila.c.o  -o EJEMPLO_PILA.exe -Wl,--out-implib,libEJEMPLO_PILA.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/burbuja.c
+burbuja.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/burbuja.h
+
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/burbuja.h
+vectordinamico.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/vectordinamico.h
+
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+vectordinamico.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/vectordinamico.h
+quicksort.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/quicksort.h
+burbuja.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/burbuja.h
+seleccion.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/seleccion.h
+
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/quicksort.c
+quicksort.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/quicksort.h
+
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/quicksort.h
+vectordinamico.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/vectordinamico.h
+
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/seleccion.c
+seleccion.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/seleccion.h
+
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/seleccion.h
+vectordinamico.h
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/vectordinamico.h
+
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/vectordinamico.c
+stdlib.h
+-
+stdio.h
+-
+time.h
+-
+
+/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/vectordinamico.h
+

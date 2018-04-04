@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/EJEMPLO_PILA/main.c
+stdio.h
+-
+stdlib.h
+-
+pila.h
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/EJEMPLO_PILA/pila.h
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/EJEMPLO_PILA/pila.c
+stdlib.h
+-
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/EJEMPLO_PILA/pila.h
+

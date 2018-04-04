@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P1/E0_CLION/main.c
+stdio.h
+-
+stdlib.h
+-
+vectordinamico.h
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P1/E0_CLION/vectordinamico.h
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P1/E0_CLION/vectordinamico.c
+stdlib.h
+-
+stdio.h
+-
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P1/E0_CLION/vectordinamico.h
+

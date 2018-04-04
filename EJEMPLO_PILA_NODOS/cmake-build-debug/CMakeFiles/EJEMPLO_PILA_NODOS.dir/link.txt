@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/EJEMPLO_PILA_NODOS.dir/main.c.o CMakeFiles/EJEMPLO_PILA_NODOS.dir/pila.c.o  -o EJEMPLO_PILA_NODOS.exe -Wl,--out-implib,libEJEMPLO_PILA_NODOS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

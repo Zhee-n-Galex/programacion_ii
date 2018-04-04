@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>matriz.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>asignarElemento.c</itemPath>
+      <itemPath>creaMatriz.c</itemPath>
+      <itemPath>destrueMatriz.c</itemPath>
+      <itemPath>imprimeMatriz.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>obterElemento.c</itemPath>
+      <itemPath>prodEscalar.c</itemPath>
+      <itemPath>produto.c</itemPath>
+      <itemPath>suma.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+      <itemPath>entrega/makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+      </compileType>
+      <item path="asignarElemento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="creaMatriz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="destrueMatriz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="imprimeMatriz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="matriz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="obterElemento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="prodEscalar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="produto.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="suma.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+      </compileType>
+      <item path="asignarElemento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="creaMatriz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="destrueMatriz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="imprimeMatriz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="matriz.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="obterElemento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="prodEscalar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="produto.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="suma.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

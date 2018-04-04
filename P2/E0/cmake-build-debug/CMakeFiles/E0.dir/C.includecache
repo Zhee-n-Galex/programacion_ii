@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P2/E0/cola.c
+stdlib.h
+-
+stdio.h
+-
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P2/E0/cola.h
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P2/E0/listas.c
+stdio.h
+-
+stdlib.h
+-
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P2/E0/listas.h
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P2/E0/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+cola.h
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P2/E0/cola.h
+listas.h
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P2/E0/listas.h
+

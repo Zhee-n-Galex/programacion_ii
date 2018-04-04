@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/fibonacci/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

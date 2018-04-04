@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/E0_CLION.dir/main.c.o CMakeFiles/E0_CLION.dir/vectordinamico.c.o  -o E0_CLION.exe -Wl,--out-implib,libE0_CLION.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
