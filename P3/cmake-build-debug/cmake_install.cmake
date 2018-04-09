@@ -1,4 +1,4 @@
-# Install script for directory: /cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3
+# Install script for directory: /cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/g/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/cygdrive/d/GrEI/1 Ano/2 Cuatrimestre/Programacion II/Exercicios/P3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

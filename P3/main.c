@@ -9,6 +9,7 @@
 int main(int argc, char* args[]) {
     unsigned long i, tam_inicial, tam_final, pasos;
     int menu;
+    char archivo[50];
     vectorP v1 = NULL;
     clock_t inicio = -1, fin = -1;
     FILE *fp;
@@ -41,7 +42,10 @@ int main(int argc, char* args[]) {
         scanf("%d", &menu);
         switch (menu) {
             case 1: // metodo quicksort
-                fp = fopen("metodoQuicksort.csv", "w");
+                printf("Introduza o nome do arquivo: ");
+                fflush(stdin);
+                scanf("%s", archivo);
+                fp = fopen(archivo, "w");
                 for (i = tam_inicial; i <= tam_final; i = i + pasos) {
                     crear(&v1, i);
                     inicializaVectorRand(&v1);
@@ -56,7 +60,10 @@ int main(int argc, char* args[]) {
                 fclose(fp);
                 break;
             case 2: // metodo burbuja
-                fp = fopen("metodoBurbuja.csv", "w");
+                printf("Introduza o nome do arquivo: ");
+                fflush(stdin);
+                scanf("%s", archivo);
+                fp = fopen(archivo, "w");
                 for (i = tam_inicial; i <= tam_final; i = i + pasos) {
                     crear(&v1, i);
                     inicializaVectorRand(&v1);
@@ -71,7 +78,10 @@ int main(int argc, char* args[]) {
                 fclose(fp);
                 break;
             case 3: // metodo seleccion
-                fp = fopen("metodoSeleccion.csv", "w");
+                printf("Introduza o nome do arquivo: ");
+                fflush(stdin);
+                scanf("%s", archivo);
+                fp = fopen(archivo, "w");
                 for (i = tam_inicial; i <= tam_final; i = i + pasos) {
                     crear(&v1, i);
                     inicializaVectorRand(&v1);
